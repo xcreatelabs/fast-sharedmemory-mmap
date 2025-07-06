@@ -1,6 +1,6 @@
 {
-  "name": "fast-shm-cache",
-  "version": "1.0.2",
+  "name": "fast-sharedmemory-mmap",
+  "version": "1.0.3",
   "description": "High-performance shared-memory cache for Node.js using native C++ addons",
   "main": "index.js",
   "keywords": [
@@ -11,7 +11,8 @@
     "ipc",
     "cluster",
     "worker-threads",
-    "native"
+    "native",
+    "mmap"
   ],
   "scripts": {
     "install": "node-gyp rebuild",
@@ -27,12 +28,12 @@
   "gypfile": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metabees/fast-shm-cache.git"
+    "url": "git+https://github.com/xcreatelabs/fast-sharedmemory-mmap.git"
   },
   "bugs": {
-    "url": "https://github.com/metabees/fast-shm-cache/issues"
+    "url": "https://github.com/xcreatelabs/fast-sharedmemory-mmap/issues"
   },
-  "homepage": "https://github.com/metabees/fast-shm-cache#readme",
+  "homepage": "https://github.com/xcreatelabs/fast-sharedmemory-mmap#readme",
   "directories": {
     "example": "examples",
     "test": "test"
