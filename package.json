@@ -1,0 +1,43 @@
+{
+  "name": "fast-shm-cache",
+  "version": "1.0.2",
+  "description": "High-performance shared-memory cache for Node.js using native C++ addons",
+  "main": "index.js",
+  "keywords": [
+    "node-addon",
+    "shared-memory",
+    "high-performance",
+    "cache",
+    "ipc",
+    "cluster",
+    "worker-threads",
+    "native"
+  ],
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild",
+    "test": "node test/test.js",
+    "demo": "node examples/cluster-demo.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "metabees.org",
+  "license": "MIT",
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metabees/fast-shm-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metabees/fast-shm-cache/issues"
+  },
+  "homepage": "https://github.com/metabees/fast-shm-cache#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.4.0"
+  }
+}
